@@ -7,7 +7,7 @@ var Component = Component || {};
 //Keyboard Map
 Keyboard.Keymap = {
   37: 'left',
-  38: 'space',
+  38: 'up',
   39: 'right',
   40: 'down'
 };
@@ -132,7 +132,7 @@ Game.Draw = function(context, snake) {
       case 'left':
         nx--;
         break;
-      case 'space':
+      case 'up':
         ny--;
         break;
       case 'down':
